@@ -2,8 +2,6 @@
 
 This is a simple Arduino project demonstrating how to control an LED and buzzer with a button.
 
----
-
 ## Components
 
 - 1 x Arduino Uno
@@ -13,8 +11,6 @@ This is a simple Arduino project demonstrating how to control an LED and buzzer 
 - 2 x 220Ω resistor (for LED)
 - Jumper wires and breadboard
 
----
-
 ## How It Works
 
 - The button is connected using `INPUT_PULLUP` (no need for external resistor).
@@ -23,8 +19,6 @@ This is a simple Arduino project demonstrating how to control an LED and buzzer 
   - The buzzer makes a short sound (200 ms)
 - When not pressed:
   - Both LED and buzzer are OFF
-
----
 
 ## Folder Structure
 
@@ -37,14 +31,8 @@ Buzzer-LED-Button-Experiment/
 ├── src/
 │ └── buzzer_led_button.ino
 
----
-
 ## License
-
 MIT License
 
----
-
 ## Author
-
 Catherine Bugarin
